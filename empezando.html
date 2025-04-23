@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="usando etiquetas semanticas, cuidando el posicionamiento SEO y la accesibilidad">
+    <title>HTML5</title>
+</head>
+<body class="BODY">
+    <header>
+        <h1 class="programacionWeb">PROGRAMACION WEB</h1>
+        <h3 class="subt-html-css-js">HTML, CSS, JS</h3>
+        <nav>
+            <h2 class="temas">Temas</h2>
+            <ul>
+                <li><a href="#html5">HTML5</a></li>
+                <li><a href="#css3">CSS3</a></li>
+                <li><a href="#jsEM6">JavaScript </a></li>
+            </ul>
+        </nav>  
+    </header>
+    <aside class="ASIDEizquierdo">
+        <h3 class="indice">Indice</h3>
+        <nav class="indice-aside-izq-nav">
+            <ul class="indice-aside-izq-ul">
+                <details class="indice-aside-izq-details">
+                    <summary><a href="#html5">HTML y HTML5</a></summary>
+                        <li><a href="#reglasHTML">Reglas basicas HTML</a></li>
+                        <li><a href="#etiquetas">Etiquetas</a></li>
+                        <li><a href="#roles">Roles</a></li>
+                        <li><a href="#seoYacces">SEO y Accesibilidad</a></li>
+                        <li><a href="#semantica">Semantica</a></li>
+                </details>
+                <details class="indice-aside-izq-details">
+                    <summary><a href="#css3">CSS3</a></summary>
+                        <li><a href="#que_es_css">Que es CSS?</a></li>
+                        <li><a href="#sintaxisYreglas">Sintaxis y reglas de estilo</a></li>
+                        <li><a href="#especificidad">Especificidad</a></li>
+                        <li><a href="#shorthand">Shorthand</a></li>
+                </details>
+            </ul>
+        </nav>  
+    </aside>
+
+    <aside class="ASIDEderecho">
+        <h3>Titulos actuales</h3>
+        <nav>
+            <ul>
+                <li><a href="#section1">SEO y Accesibilidad</a></li>
+                <li><a href="#section2">Semantica</a></li>
+                <li><a href="#section3">Etiquetas</a></li>
+                <li><a href="#section4">Roles</a></li>
+            </ul>
+        </nav>  
+    </aside>
+
+    <main class="MAIN">
+        <br><hr><br>
+        <h2 id="html5">HTML y HTML5</h2>
+        <p>HTML es el lenguaje más usado para
+            construcción de páginas Web. La sigla HTML
+            significa Hyper Text Markup Language (lenguaje
+            de marcas de hipertexto).
+            HTML no es un lenguaje de programación, sino
+            de marcas con sentido.
+            Llamamos a dichas marcas etiquetas. Éstas le
+            indican al navegador qué es lo que debe
+            mostrar en pantalla.
+        </p><br>
+        <h4 class="h4">¿Cuál es el origen de HTML5?</h4>
+        <blockquote class="blockquote"> 
+            El lenguaje HTML5 se desarrolló con la
+            cooperación de dos entidades, World Wide Web
+            Consortium (W3C) y Web Hypertext Application
+            Technology Working Group (WHATWG).
+            WHATWG estaba trabajando en mejoras para
+            los formularios en la web, mientras que W3C
+            trabajaba en XHTML2.0. En el año 2006
+            decidieron juntarse a trabajar en una nueva y
+            mejor versión del lenguaje HTML, dando así
+            origen a la era de HTML5
+        </blockquote><br>
+
+        <article class="articulo">
+            <section class="articulo-seccion">
+                <h3 class="h3">Reglas basicas de HTML5</h3>
+                <ul>
+                    <li>Las nuevas funcionalidades se basan en
+                        HTML, CSS, DOM, y JavaScript.
+                    </li>
+                    <li>Reduce el uso de plugins externos, por
+                        ejemplo: Flash Player.
+                    </li>
+                    <li>Mejora el manejo de errores.
+                    </li>
+                    <li>Tiene mejores etiquetas de marcación.
+                    </li>
+                    <li>HTML5 es independiente del dispositivo de
+                        visualización.
+                    </li>
+                    <li>El proceso de desarrollo es visible para el
+                        público.
+                    </li>
+                </ul>
+            </section><br>
+        
+            <section>
+                <h3 class="h3">Etiquetas</h3>
+                <p>Las etiquetas son los elementos que componen
+                    el HTML. Cada etiqueta tiene un significado
+                    y una función específica. Las etiquetas se
+                    escriben entre corchetes angulares (<>) y
+                    generalmente vienen en pares, es decir, una
+                    etiqueta de apertura y otra de cierre.
+                </p>
+            </section>
+            <section>
+                <h3 class="h3">Roles</h3>
+                <p>Los roles son atributos que se pueden agregar a
+                    las etiquetas HTML para indicar su función o
+                    propósito en la página web. Los roles ayudan a
+                    los navegadores y a los lectores de pantalla a
+                    entender mejor la estructura y el contenido de
+                    la página.
+                </p>
+            </section><br><hr><br>
+
+            <h2 class="h2" id="css3">CSS3</h2>
+            <section>
+                <h3 id="que_es_css">Que es CSS?</h3>
+                <p>CSS (Cascading Style Sheets) u Hojas de estilo
+                    en cascada en español, no es un lenguaje de
+                    programación, pero tampoco es un lenguaje de
+                    marcado. Es un lenguaje de hojas de estilo, es
+                    decir, te permite aplicar estilos a elementos en
+                    documentos HTML.
+                </p>
+
+                <h3 class="h3" id="sintaxisYreglas">Sintaxis y reglas de estilo</h3>
+                <ul>
+                    <li>El <strong>selector</strong> es el elemento sobre el cual se
+                        aplica la regla de estilo. Por ejemplo: body, h1,
+                        section, p
+                    </li>
+                    <li>La <strong>propiedad</strong> es la característica que se
+                        modifica, por ejemplo, color, tipografía,
+                        tamaño, etc.
+                    </li>
+                    <li>El <strong>valor</strong> que se aplica a la propiedad, por
+                        ejemplo: red, arial, 12px, etc.
+                    </li>
+                </ul>
+
+                <h3 class="h3" id="especificidad">Especificidad</h3>
+                <p>La especificidad es un concepto importante en CSS
+                    que determina qué reglas de estilo se aplican a un
+                    elemento en particular. La especificidad se basa en
+                    la combinación de selectores utilizados para seleccionar
+                    un elemento.
+                </p><br>
+
+                <blockquote>
+                    Si cambió estilos sobre algún elemento este tomará el que tenga mayor especificidad
+                </blockquote>
+
+                <table class="tabla">
+                    <tr>
+                        <td>Etiqueta HTML</td>
+                        <td>unidades</td>
+                        <td>0,0,1</td>
+                    </tr>
+                    <tr>
+                        <td>Clase CSS</td>
+                        <td>decenas</td>
+                        <td>0,1,0</td>
+                    </tr>
+                    <tr>
+                        <td>Id CSS</td>
+                        <td>centenas</td>
+                        <td>1,0,0</td>
+                    </tr>
+                    <tr>
+                        <td>Selector universal</td>
+                        <td>miles</td>
+                        <td>0,0,0</td>
+                    </tr>
+                    <tr>
+                        <td>!important</td>
+                        <td>sobre todas</td>
+                        <td>No se recomienda</td>
+                    </tr>
+                </table>
+
+                <h3 class="h3" id="shorthand">Shorthand</h3>
+                <p>El <strong>"shorthand"</strong> (abreviatura) en CSS es una técnica que permite
+                definir varias propiedades relacionadas en una sola línea de 
+                código, lo que hace que el código sea más conciso y fácil de mantener.
+
+                <h4 class="h4">Ejemplos comunes de propiedades shorthand en CSS:</h4>
+                <ol type="1" class="listaOrdenada">
+                    <li><strong>margin/padding</strong>: En lugar de definir cada lado por separado.</li><br>
+                        <span class="span">css</span><br>
+                        <code class="code">
+                            /* Forma larga */   <br>
+                            margin-top: 10px;   <br>
+                            margin-right: 20px; <br>
+                            margin-bottom: 10px;<br>
+                            margin-left: 20px;  <br>
+                            <br>
+                            /* Shorthand */     <br>
+                            margin: 10px 20px 10px 20px; /* arriba derecha abajo izquierda */<br>
+                            margin: 10px 20px; /* arriba/abajo izquierda/derecha */<br>
+                        </code>
+                    <li><strong>border</strong>: Combina width, style y color.</li><br>
+                        <span class="span">css</span><br>
+                        <code class="code">
+                            /* Forma larga */   <br>
+                            border-width: 1px;  <br>
+                            border-style: solid;<br>
+                            border-color: black;<br>
+                            <br>
+                            /* Shorthand */<br>
+                            border: 1px solid black;<br>
+                        </code>
+                    <li><strong>font</strong>: Combina múltiples propiedades de texto.</li><br>
+                        <span class="span">css</span><br>
+                        <code class="code">
+                            /* Forma larga */   <br>
+                            font-style: italic; <br>
+                            font-weight: bold;  <br>
+                            font-size: 16px;    <br>
+                            line-height: 1.5;   <br>
+                            font-family: Arial, sans-serif;<br>
+                            <br>
+                            /* Shorthand */<br>
+                            font: italic bold 16px/1.5 Arial, sans-serif;<br>
+                        </code>
+                    <li><strong>background</strong>: Para múltiples propiedades de fondo</li><br>
+                    <span class="span">css</span><br>
+                        <code class="code">
+                            /* Forma larga */   <br>
+                            background-color: white;  <br>
+                            background-image: url('imagen.jpg');  <br>
+                            background-repeat: no-repeat;  <br>                                     
+                            background-position: center;    <br>
+                            <br>    
+                            /* Shorthand */ <br>
+                            background: white url('imagen.jpg') no-repeat center;<br>
+                        </code>
+                </ol>
+                </p><br>
+            </section>
+        </article><br>
+        
+    </main>
+
+    <footer class="FOOTER">
+        <h3 class="h3">Desarrollado por: </h3>
+        <p>Adrian Iskow</p>
+        <p>© 2025 ISFT N213. Todos los derechos reservados.</p>
+        <address>
+            Contacto: <a href="mailto: adrianiskow@gmail.com">adrianiskow@gmail.com</a>
+        </address>
+    </footer>
+</body>
+</html>
